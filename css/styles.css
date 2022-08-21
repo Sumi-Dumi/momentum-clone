@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   height: 100vh;
 }
@@ -5,15 +10,74 @@ body {
 body .bgImg {
   height: 100%;
   width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
+}
+
+body .greeting-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0px 0px 200px black;
+}
+
+body .todo-list-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0px 0px 200px black;
+}
+
+body .quote-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0px 0px 200px black;
+}
+
+body h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0px 0px 200px black;
 }
 
 .hidden {
   display: none;
+}
+
+#clock {
+  color: white;
+  font-size: 200px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,16 +1,41 @@
+@import "_mixins.scss";
+
+* {
+    box-sizing: border-box;
+}
 body{
     height: 100vh;
     .bgImg{
         height: 100%;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-size: cover;
         background-repeat: no-repeat;
-        display: flex;
         background-position: center center;
-        
+
+    }
+    .greeting-section{
+        @include center();
+    }
+    .todo-list-section {
+        @include center();
+    }
+    .quote-section{
+        @include center();
+    }
+    h2{
+        @include center();
     }
 }
 
+
 .hidden {
     display: none;
+}
+
+#clock{
+    color: white;
+    font-size: 200px;
 }
