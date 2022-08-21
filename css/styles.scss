@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    .bgImg{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        background-position: center center;
+        
+    }
+}
+
+.hidden {
+    display: none;
+}

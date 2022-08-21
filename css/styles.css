@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+}
+
+body .bgImg {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-position: center center;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
